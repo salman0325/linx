@@ -19,7 +19,13 @@ jobs:
     - name: Set up SSH for GitHub Actions
       uses: webfactory/ssh-agent@v0.5.3
       with:
-        ssh-private-key: ${{SHA256:MMJ0NDnseF23s23lfnSuOKpc1+3avn2B5I5/7RIixIo }}
+        ssh-private-key: ${{b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDE10qmH606sk8o8s22o+/v4B9OJmEvHTNkPRjqDBTmtwAAAKhPAdILTwHS
+CwAAAAtzc2gtZWQyNTUxOQAAACDE10qmH606sk8o8s22o+/v4B9OJmEvHTNkPRjqDBTmtw
+AAAECekWPpzKXNMhHOfLK2BsrfV3ApNtTje+ah2Fx3bko6s8TXSqYfrTqyTyjyzbaj7+/g
+H04mYS8dM2Q9GOoMFOa3AAAAJWRldm9wc0BkZXZvcHMtVk13YXJlLVZpcnR1YWwtUGxhdG
+Zvcm0=
+ }}
         
     - name: Install dependencies
       run: |
