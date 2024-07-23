@@ -53,9 +53,4 @@ jobs:
         EOF
         gpg --output dists/stable/Release.gpg -ba dists/stable/Release
 
-    - name: Deploy repository (example: deploy to GitHub Pages)
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./myrepo
-        publish_branch: gh-pages  # Adjust branch as needed
+   
